@@ -34,6 +34,10 @@
         <WarningLevel>4</WarningLevel>
     </PropertyGroup>
     <ItemGroup>
+        <Reference Include="0Harmony">
+          <HintPath>..\..\..\..\..\..\workshop\content\294100\2009463077\Current\Assemblies\0Harmony.dll</HintPath>
+          <Private>False</Private>
+        </Reference>
         <Reference Include="System"/>
         <Reference Include="System.Core"/>
         <Reference Include="System.Data"/>
@@ -53,6 +57,7 @@
         </PackageReference>
     </ItemGroup>
     <ItemGroup>
+        <Compile Include="LifeStageWorkSettings_IsDisabled_Patch.cs" />
         <Compile Include="StartupPatcher.cs" />
         <Compile Include="Properties\AssemblyInfo.cs"/>
     </ItemGroup>

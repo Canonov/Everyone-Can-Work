@@ -2,11 +2,20 @@
 <ModMetaData>
   <name>Everyone can Work</name>
   <packageId>Canon.BabiesCanWork</packageId>
-  <author>Canon</author>
+  <authors>
+    <li>Canon</li>
+    <li>Noobert (Commissioner)</li>
+  </authors>
   <supportedVersions>
     <li>1.4</li>
   </supportedVersions>
   <modDependencies>
+    <li>
+      <packageId>brrainz.harmony</packageId>
+      <displayName>Harmony</displayName>
+      <downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+      <steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=2009463077</steamWorkshopUrl>
+    </li>
     <li>
       <packageId>Ludeon.RimWorld.Biotech</packageId>
       <displayName>Biotech</displayName>
