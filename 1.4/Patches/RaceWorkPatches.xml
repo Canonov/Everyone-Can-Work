@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="Human"]/race/lifeStageWorkSettings/Firefighter</xpath>
+    <value>
+      <Firefighter>0</Firefighter>
+    </value>
+  </Operation>
+
+  <!-- patient not needed, it's already 0 -->
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="Human"]/race/lifeStageWorkSettings/Doctor</xpath>
+    <value>
+      <Doctor>0</Doctor>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="Human"]/race/lifeStageWorkSettings/BasicWorker</xpath>
+    <value>
+      <BasicWorker>0</BasicWorker>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="Human"]/race/lifeStageWorkSettings/Warden</xpath>
+    <value>
+      <Warden>0</Warden>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="Human"]/race/lifeStageWorkSettings/Handling</xpath>
+    <value>
+      <Handling>0</Handling>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="Human"]/race/lifeStageWorkSettings/Cooking</xpath>
+    <value>
+      <Cooking>0</Cooking>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="Human"]/race/lifeStageWorkSettings/Hunting</xpath>
+    <value>
+      <Hunting>0</Hunting>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="Human"]/race/lifeStageWorkSettings/Construction</xpath>
+    <value>
+      <Construction>0</Construction>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="Human"]/race/lifeStageWorkSettings/Growing</xpath>
+    <value>
+      <Growing>0</Growing>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="Human"]/race/lifeStageWorkSettings/Mining</xpath>
+    <value>
+      <Mining>0</Mining>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="Human"]/race/lifeStageWorkSettings/PlantCutting</xpath>
+    <value>
+      <PlantCutting>0</PlantCutting>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="Human"]/race/lifeStageWorkSettings/Smithing</xpath>
+    <value>
+      <Smithing>0</Smithing>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="Human"]/race/lifeStageWorkSettings/Tailoring</xpath>
+    <value>
+      <Tailoring>0</Tailoring>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="Human"]/race/lifeStageWorkSettings/Art</xpath>
+    <value>
+      <Art>0</Art>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="Human"]/race/lifeStageWorkSettings/Crafting</xpath>
+    <value>
+      <Crafting>0</Crafting>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="Human"]/race/lifeStageWorkSettings/Hauling</xpath>
+    <value>
+      <Hauling>0</Hauling>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="Human"]/race/lifeStageWorkSettings/Cleaning</xpath>
+    <value>
+      <Cleaning>0</Cleaning>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="Human"]/race/lifeStageWorkSettings/Research</xpath>
+    <value>
+      <Research>0</Research>
+    </value>
+  </Operation>
+
+</Patch>

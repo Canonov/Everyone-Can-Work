@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<loadFolders>
+	<v1.4>
+		<li>/</li>
+		<li>1.4</li>
+		<li IfModActive="ludeon.rimworld.ideology">Ideology</li>
+		<li IfModActive="solaris.ratkinracemod">Mods/NewRatkinPlus</li>
+		<li IfModActive="farmradish.nyaron">Mods/NyaronRace</li>
+		<!--<li IfModActive="vanillaexpanded.vbookse">Mods/VEBooks</li>
+		<li IfModActive="vanillaexpanded.vcef">Mods/VEFishing</li>-->
+	</v1.4>
+</loadFolders>
