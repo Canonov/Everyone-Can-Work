@@ -1,17 +1,14 @@
 ﻿using HarmonyLib;
 using Verse;
 
-namespace EveryoneCanWork
-{
-    [StaticConstructorOnStartup]
-    public class StartupPatcher
-    {
+namespace EveryoneCanWork;
 
-        static StartupPatcher()
-        {
-            var harmony = new Harmony("com.EveryoneCanWork.patches");
-            harmony.PatchAll();
-        }
-        
+[StaticConstructorOnStartup]
+public class StartupPatcher
+{
+    static StartupPatcher()
+    {
+        var harmony = new Harmony("com.EveryoneCanWork.patches");
+        harmony.PatchAll();
     }
 }
